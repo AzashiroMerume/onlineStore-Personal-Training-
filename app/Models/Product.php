@@ -17,6 +17,17 @@ class Product extends Model
      * $this->attributes['updated_at'] - timestamp - contains the product update date
      */
 
+
+
+    //The code below should be used if you implemented alternative strategy of sending data to the database, 
+    //that have briefly described in the AdminProductController
+    // protected $fillable = [
+    //     'name',
+    //     'description',
+    //     'price',
+    //     'image',
+    // ];
+
     public function getId()
     {
         return $this->attributes['id'];
