@@ -69,7 +69,7 @@ class User extends Authenticatable
     {
         return $this->orders;
     }
-    
+
     public function setOrders($orders)
     {
         $this->orders = $orders;
